@@ -1,5 +1,5 @@
 Package: plethy
-Version: 1.39.0
+Version: 1.39.1
 Date: 2013-4-26
 Title: R framework for exploration and analysis of respirometry data
 Authors@R: c(person("Daniel", "Bottomly", role=c("aut", "cre"), email="bottomly@ohsu.edu"),
@@ -16,6 +16,7 @@ Description: This package provides the infrastructure and tools to import, query
 License: GPL-3
 biocViews: DataImport, biocViews, Infastructure,
         DataRepresentation,TimeCourse
-Collate: BuxcoDB.R RetList.R buxco_db_v2.R dep_parser.R utilities.R
+Collate: BuxcoDB.R RetList.R buxco_db_v2.R dep_parser.R utilities.R zzz.R
 Packaged: 2013-08-13 16:11:52 UTC; bottomly
 Url: https://github.com/dbottomly/plethy
+PackageStatus: Deprecated
